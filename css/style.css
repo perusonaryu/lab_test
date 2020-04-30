@@ -1,0 +1,583 @@
+/* ここから下に記載していく */
+
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto ;
+    box-sizing: border-box;
+}
+
+.text-height{
+    line-height: 20px;
+}
+
+/* header始まり */
+.wrap2{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 116px;
+}
+
+.header{
+    width: 1200px;
+    height: 116px;
+    display: flex;
+    align-items: center;
+    background: white;
+    position: fixed;
+    z-index: 20;
+    opacity:0.8;
+}
+
+.header ul{
+    margin: 50px 0 50px auto;
+}
+
+.header ul li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.header ul li a:hover{
+    border-bottom:1px solid #ffd61a;
+    color: #ffd61a;
+}
+/* header終わり */
+
+/* mainbg始め */
+.top-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-image .title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.top-image .text{
+    font-size:30px;
+    font-weight: lighter;
+}
+
+
+/* mainbg終わり */
+
+
+
+/* about始まり */
+.about{
+    text-align:center;
+    background: #fafafa;
+    padding: 130px 0 80px 0;
+    color:#222222;
+}
+
+.about .title{
+    color:#ffd61a;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.about .txt1{
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about .txt2{
+    margin-bottom: 40px;
+}
+
+.about .txt3{
+    margin-bottom: 40px;
+}
+
+.about .txt4{
+    margin-bottom: 40px;
+}
+
+.about .li-he{
+    line-height: 30px;
+}
+/* about終わり */
+
+
+/* gallery始まり */
+.gallery{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.gallery .image{
+    width: 400px;
+}
+
+.gallery .image img{
+    width:100%;
+}
+
+.single{
+    width: 100%;
+    height: 200x;
+    margin: 0 auto;
+}
+
+.single img{
+    width: 100%;
+    height: 200px;
+}
+/* gallery終わり */
+
+/* corse始まり */
+.course{
+    margin-bottom: 60px;
+    padding-top: 130px;
+}
+
+.course .main-title{
+    font-size: 24px;
+    color: #222222;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.course .title-text{
+    text-align:center;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.course .box1{
+    display: flex;
+}
+
+.course .box1 .image-left{
+    width: 50%;
+    height: 400px;
+}
+
+.course .box1 .image-left img{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.course .box1 .text-right{
+    width:50%;
+    height: 400px;
+    background: #fafafa; 
+}
+
+.course .box1 .text-right .detail{
+    margin: 16% 25% 16% 50px;
+}
+
+.course .text-right .title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.course .text-right .text{
+    line-height: 30px;
+}
+
+.course .box2{
+    display: flex;
+}
+
+.course .box2 .text-left{
+    width: 50%;
+    height: 400px;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+.course .box2 .text-left .detail{
+    margin: 16% 50px 16% 25%;
+}
+
+.course .box2 .text-left .title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.course .box2 .text-left .text{
+    line-height: 30px;
+}
+
+.course .box2 .image-right{
+    width: 50%;
+    height: 400px;
+}
+
+.course .box2 .image-right img{
+    width: 100%;
+    height: 400px;
+}
+/* corse終わり */
+
+
+/* news始まり */
+.news{
+    width: 960px;
+    margin: 0 auto 60px;
+    padding-top: 130px;
+}
+
+.news .main-title{
+    font-size: 24px;
+    color: #ffd61a;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.news .title-text{
+    text-align:center;
+    margin-bottom: 60px;
+}
+
+.news .box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.news .box .box1{
+    width: 300px;
+    border:1px solid green;
+    box-sizing: border-box;
+}
+
+.news .box .box1:hover{
+    opacity:0.5;
+}
+
+.news .box .box1 .news-image{
+    width: 300px;
+    margin-bottom: 30px;
+} 
+
+.news .box .box1 .news-image img{
+    width: 100%;
+}
+
+.news .box .box1 .detail .up-day{
+    margin-bottom: 24px;
+}
+
+.news .box .box1 .detail .text{
+    line-height: 30px;
+}
+
+.news .more{
+    width:300px;
+    height: 60px;
+    background: #ffd61a;
+    margin: 0 auto;
+}
+
+.news .more:hover{
+    opacity:0.5;
+}
+
+.news .more .more-button{
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+/* news終わり */
+
+
+/* access始まり */
+.access{
+    background: #fafafa;
+    padding: 130px 0 45px 0;
+    margin-bottom: 60px;
+}
+
+.access .main-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.access .title-text{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.access .map{
+    margin-bottom: 60px;
+}
+
+.access .detail{
+    width: 40%;
+    margin: 0 auto;
+    text-align:left;
+}
+
+.access .detail tr th{
+    padding: 15px 0;
+}
+
+.access .detail tr td{
+    padding:15px 0px 15px 25px;
+}
+/* access終わり */
+
+/* contact始まり */
+.contact{
+    margin: 0 auto 140px;
+    padding-top: 130px;
+}
+
+
+
+.contact .main-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact .title-text{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact .text1, .contact .text2{
+    text-align: center;
+}
+
+.contact .text1{
+    margin-bottom: 30px;
+    color: #222222;
+}
+
+.contact .text2{
+    margin-bottom: 70px;
+    color: #222222;
+}
+
+.contact .form{
+    width: 640px;
+    border-top: solid 1px #bfbfbf;
+    margin: 0 auto 30px;
+}
+
+.contact .form .item{
+    display: flex;
+    padding-left:16px;
+    border-bottom: solid 1px #bfbfbf;
+}
+
+.contact .form .item-size{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.contact .form .item .label-name{
+    height:35px;
+    border-right: solid 1px #bfbfbf;
+    padding:8px 0;
+    display: flex;
+    align-items: center;
+}
+.contact .form .item .form-name{
+    display:block;
+    width: 240px;
+
+}
+
+.contact .form .item .form-box{
+    padding-left: 8px;
+}
+
+.contact .form .item .input1{
+    padding: 8px 0px 8px 8px;
+}
+
+.contact .form .item .input1 input{
+    width:300px;
+    height: 20px;
+}
+
+.contact .form .item .checkbox .checkbox1{
+    font-size: 13px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.contact .form .item .checkbox .checkbox1 input{
+    margin-right: 35px;
+}
+
+
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+}
+
+.contact .form .item .form-box .select-box{
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding: 7px 30px 7px 10px;
+	font-size: 93%;
+	line-height: 1.1em;
+	border-radius: 5px;
+}
+
+.contact .form .item .form-box .select-box:hover{
+    opacity: 0.5;
+}
+
+
+.contact .form .item-size2{
+    height:241px;
+}
+
+.contact .form .item .label-name2{
+    height:241px;
+    border-right: solid 1px #bfbfbf;
+    padding:8px 0;
+}
+
+.contact .form .item .label-name3{
+    height:140px;
+    border-right: solid 1px #bfbfbf;
+    padding:8px 0;
+}
+
+.contact .sousin{
+    width:300px;
+    height: 60px;
+    background: #ffd61a;
+    margin: 0 auto;
+}
+
+.contact .sousin:hover{
+    opacity:0.5;
+}
+
+.contact .sousin .sousin-button{
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+/* contact終わり */
+
+/* footer始まり */
+.footer{
+    background: #707070;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+/* footer終わり */
+
+.accordion-container {
+    position: relative;
+    width: 100%;
+    border: 1px solid #0079c1;
+    border-top: none;
+    outline: 0;
+    cursor: pointer
+  }
+  
+  .accordion-container .article-title {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0.625em 0.625em 0.625em 2em;
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+  }
+  
+  .accordion-container .article-title:hover,
+  .accordion-container .article-title:active,
+  .accordion-container .content-entry.open .article-title {
+    background-color: #00aaa7;
+    color: white;
+  }
+  
+  .accordion-container .article-title:hover i:before,
+  .accordion-container .article-title:hover i:active,
+  .accordion-container .content-entry.open i {
+    color: white;
+  }
+  
+  .article-title{
+    position: relative;
+  }
+  
+  .article-title:after {
+    content: "";
+    position: absolute;
+    right: 25px;
+    top: 38%;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: solid 2px #fff;
+    border-right: solid 2px #fff;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  
+  .article-title.open:after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 45%;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding-left: 2.3125em;
+  }
+  
+  /* CSS for CodePen */
+  .accordion-container {
+    width: 300px;
+    margin: 1.875em auto;
+  }
+
